@@ -1,0 +1,17 @@
+.Movies {
+    width: 50%;
+    height: 25rem;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    overflow-y: auto;
+    line-height: 2rem; 
+    padding: 0; 
+}
+@media only screen and (max-width: 400px) {
+    .Movies{
+        width: 80%;
+        height: 60%;
+        font-size: 1rem;
+        max-width: 100%;
+    }
+}

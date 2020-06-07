@@ -18,3 +18,10 @@
 .Back:active {
     transform: translateY(1px);
 }
+@media only screen and (max-width: 400px) {
+    .Back{
+        width: 4rem;
+        height: 4rem;
+            
+    }
+}

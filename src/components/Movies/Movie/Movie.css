@@ -31,3 +31,12 @@ i {
     color: transparent;
     
 }
+@media only screen and (max-width: 400px) {
+    .Movie{
+        width: 100%;
+    }
+    i {
+        right: 4%;
+        top: 30%;     
+    }
+}
