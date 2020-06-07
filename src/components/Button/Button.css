@@ -15,7 +15,7 @@
     transform: translateY(1px);
 }
 
-@media (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .Button{
         width: 4rem;
         height: 4rem;

@@ -32,11 +32,15 @@ p{
     font-family: 'Parisienne', cursive;
     font-size: 6rem;
 }
-@media (max-width: 400px) {
+@media screen and (max-width: 600px) {
     .Backface{
-        width: 20em;
+        width: 81vw;
         height: 40rem;    
-        left: 7%;
+        left: 9vw;
         padding: 1rem 0;
+        
+    }
+    p{
+        font-size: 3rem;
     }
 }

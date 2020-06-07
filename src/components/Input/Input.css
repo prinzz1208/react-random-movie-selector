@@ -38,3 +38,8 @@
 .btn:active{
     transform: translateY(1px);
 }
+@media screen and  (max-width: 600px) {
+    .Input{
+        width: 85%;
+    }
+}
