@@ -1,4 +1,4 @@
-import React, { Component,PropTypes } from 'react'
+import React, { Component} from 'react'
 import Input from '../../components/Input/Input';
 import Button from '../../components/Button/Button';
 import db from '../../firebase';

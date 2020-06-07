@@ -1,8 +1,8 @@
  import firebase from 'firebase';
- process.env.REACT_APP_GOOGLE_API_KEY
  // Your web app's Firebase configuration
+
   var firebaseConfig = {
-    apiKey: REACT_APP_API_KEY,
+    apiKey: process.env.REACT_APP_API_KEY,
     authDomain: "react-movieselector.firebaseapp.com",
     databaseURL: "https://react-movieselector.firebaseio.com",
     projectId: "react-movieselector",
