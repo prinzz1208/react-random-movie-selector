@@ -11,8 +11,9 @@
     backface-visibility: hidden;
     transition: all .8s ease;
     position: absolute;
-    top: 5rem;
-    left: 30%;
+    top: 2rem;
+    left: 27%;
+
     transform: rotateY(180deg) ;
     border-radius: 10px;
     transition: transform 1s ease;
@@ -31,11 +32,11 @@ p{
     font-family: 'Parisienne', cursive;
     font-size: 6rem;
 }
-@media only screen and (max-width: 400px) {
+@media (max-width: 400px) {
     .Backface{
         width: 20em;
         height: 40rem;    
-        left: 5%;
+        left: 7%;
         padding: 1rem 0;
     }
 }
