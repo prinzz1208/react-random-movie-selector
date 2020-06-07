@@ -1,0 +1,33 @@
+.Movie {
+    background-color: #000000;
+/* background-image: linear-gradient(315deg, #000000 0%, #414141 74%); */
+    box-sizing: border-box;
+    height: 3rem;
+    border-radius: 10px;
+    list-style: none;
+    align-items: center;
+    position: relative; 
+    display: block;
+    width: 100%;
+    padding-top: 0.5rem;
+}
+
+span{
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    color: transparent;
+    font-weight: 100;
+}
+i {
+    position: absolute;
+    right: 4%;
+    top: 20%;
+    background: #CB356B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-clip: text;
+    color: transparent;
+    
+}

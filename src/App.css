@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  perspective: 200rem;
+  -moz-perspective: 200rem;
+  /* overflow: hidden; */
 }
 
 .App-logo {

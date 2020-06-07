@@ -1,0 +1,15 @@
+.Button {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url(../../img/popcorn.svg);
+    transition: all .2s;
+}
+
+.Button:hover{
+    transform: translateY(-4px);
+}
+.Button:active {
+    transform: translateY(1px);
+}
