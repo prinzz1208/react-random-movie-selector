@@ -38,7 +38,8 @@ p{
         height: 40rem;    
         left: 9vw;
         padding: 1rem 0;
-        
+        background-size: cover;
+        background-position: top;
     }
     p{
         font-size: 3rem;
